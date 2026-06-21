@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uswa Nazish | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+    <div class="profile">
+        <img src="profile.jpg" alt="Profile">
+        <h3>Uswa Nazish</h3>
+        <p>Computer Science Student</p>
+        <span>COMSATS University Vehari Campus</span>
+    </div>
+
+    <ul class="menu">
+        <li class="active" onclick="showSection('home', this)">🏠 Home</li>
+        <li onclick="showSection('about', this)">👤 About</li>
+        <li onclick="showSection('education', this)">🎓 Education</li>
+        <li onclick="showSection('skills', this)">💻 Skills</li>
+        <li onclick="showSection('projects', this)">🚀 Projects</li>
+        <li onclick="showSection('contact', this)">📞 Contact</li>
+    </ul>
+
+</div>
+
+<div class="main-content">
+
+    <!-- HOME -->
+    <section id="home" class="section active">
+        <h1>Hello, I'm Uswa Nazish</h1>
+        <p>Web Developer | AI & Machine Learning Enthusiast</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h1>About Me</h1>
+
+        <div class="card">Name: Uswa Nazish</div>
+        <div class="card">Field: Computer Science</div>
+        <div class="card">University: COMSATS Vehari Campus</div>
+        <div class="card">Location: Kacha Khuh, Khanewal</div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+        <h1>🎓 Education</h1>
+
+        <div class="card">Matric: Workers Welfare School Mian Channu</div>
+        <div class="card">Intermediate: PIAST College Vehari</div>
+        <div class="card">BSCS: COMSATS Vehari (3rd Semester)</div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <h1>💻 Skills</h1>
+
+        <p>Web Development</p>
+        <div class="bar"><span style="width:90%"></span></div>
+
+        <p>HTML & CSS</p>
+        <div class="bar"><span style="width:92%"></span></div>
+
+        <p>JavaScript</p>
+        <div class="bar"><span style="width:80%"></span></div>
+
+        <p>AI / Machine Learning</p>
+        <div class="bar"><span style="width:70%"></span></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h1>🚀 Projects</h1>
+
+        <div class="card">University Management System</div>
+        <div class="card">Online Paper Management System</div>
+        <div class="card">Course Registration Portal</div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <h1>📞 Contact</h1>
+
+        <div class="card">📧 uswanazish311@gmail.com</div>
+        <div class="card">📱 03157540218</div>
+        <div class="card">📍 Kacha Khuh, Khanewal</div>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+          </html>
